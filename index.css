@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+  /*overflow-x: hidden;*/
+}
+.wrapper {
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 30vh;
+}
+header .nav1 {
+  width: 100%;
+  height: 70%;
+  background-color: Red;
+}
+header .nav1 .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  background-color: #cc2121;
+}
+header .nav1 .buttons button {
+  padding: 18px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+header .nav1 .buttons button:hover {
+  background-color: #d41010;
+}
+header .nav1 .buttons .search .Btn {
+  background-color: #fff;
+  padding: 35px 180px;
+  border-radius: 10px;
+}
+header .nav2 {
+  width: 100%;
+  height: 25%;
+  background-color: #fff;
+}
+header .nav2 .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+header .nav2 .buttons button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 3px;
+}
+
+/* SECTION-1 */
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+}
+.section1 .information {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section1 .information .info-1 {
+  width: 100%;
+  height: 100%;
+}
+.section1 .information .info-1 .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.section1 .information .info-1 .details h1 {
+  font-weight: 300;
+}
+.section1 .information .info-1 .details .name {
+  position: absolute;
+  top: 3.5in;
+  left: 3.4in;
+}
+.section1 .information .info-1 .details .name h4 {
+  width: 150px;
+  height: 5px;
+  background-color: blue;
+}
+.section1 .information .info-1 .details .image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid violet;
+}
+.section1 .information .info-1 .details .date {
+  position: absolute;
+  bottom: 1in;
+  left: 3.4in;
+}
+.section1 .information .info-1 .details .date h4 {
+  width: 150px;
+  height: 5px;
+  background-color: green;
+}
+.section1 .information .info-1 .paragraph {
+  position: relative;
+  left: 20px;
+  top: 35px;
+}
+.section1 .information .info-1 .paragraph p {
+  width: 600px;
+  height: 3px;
+  background-color: #808080;
+}
+.section1 .information .info-1 .title {
+  position: relative;
+  top: 45px;
+  left: 20px;
+}
+.section1 .information .info-1 .title h4 {
+  width: 150px;
+  height: 5px;
+  background-color: lightsalmon;
+}
+.section1 .information .info-1 .personal-info {
+  position: relative;
+  width: 100%;
+  top: 2in;
+}
+.section1 .information .info-1 .personal-info .person-1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+}
+.section1 .information .info-1 .personal-info .person-1 .name {
+  position: absolute;
+  width: 350px;
+  height: 5px;
+  background-color: blue;
+  top: 10px;
+  left: 1.4in;
+}
+.section1 .information .info-1 .personal-info .person-1 h1 {
+  position: relative;
+  left: 2rem;
+  font-weight: 300;
+}
+.section1 .information .info-1 .personal-info .person-1 .image {
+  width: 100px;
+  height: 100px;
+  border: 4px solid violet;
+}
+.section1 .information .info-1 .personal-info .person-2 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  top: 0.5in;
+  font-weight: 300;
+}
+.section1 .information .info-1 .personal-info .person-2 .name {
+  position: absolute;
+  left: 1.4in;
+  bottom: 0.9in;
+  width: 400px;
+  height: 5px;
+  background-color: blue;
+}
+.section1 .information .info-1 .personal-info .person-2 h1 {
+  position: relative;
+  top: 15px;
+  left: 2rem;
+  font-weight: 300;
+}
+.section1 .information .info-1 .personal-info .person-2 .image {
+  width: 100px;
+  height: 100px;
+  border: 4px solid violet;
+}
+.section1 .information .info-2 {
+  width: 100%;
+  height: 100%;
+}
+.section1 .information .info-2 .newsletter-box {
+  position: relative;
+  left: 1.5in;
+  top: 1.8in;
+  width: 350px;
+  height: 500px;
+  background-color: green;
+  border-radius: 10px;
+}
+.section1 .information .info-2 .newsletter-box .circle {
+  position: relative;
+  left: 4.4rem;
+  bottom: 1in;
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+  border-radius: 50%;
+}
+.section1 .information .info-2 .newsletter-box .button-1 {
+  position: relative;
+  left: 1.1in;
+  top: -1rem;
+}
+.section1 .information .info-2 .newsletter-box .button-1 button {
+  padding: 20px 70px;
+}
+.section1 .information .info-2 .newsletter-box .button-2 {
+  position: relative;
+  left: 1in;
+  top: 1.3in;
+}
+.section1 .information .info-2 .newsletter-box .button-2 button {
+  padding: 20px 80px;
+}
+/* SECTION-2 */
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+}
+.section2 .information {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 85%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section2 .information .box-1 {
+  position: relative;
+  top: 5in;
+  width: 350px;
+  height: 430px;
+  background-color: #9fe69f;
+  border-radius: 12px;
+}
+.section2 .information .box-1 h1 {
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.section2 .information .box-1 .paragraph-1 {
+  position: relative;
+  left: 3rem;
+  bottom: 2.5in;
+}
+.section2 .information .box-1 .paragraph-1 p {
+  width: 250px;
+  height: 2px;
+  background-color: #74d832;
+}
+.section2 .information .box-1 .button-1 button {
+  position: relative;
+  bottom: 1.5in;
+  left: 5rem;
+  padding: 20px 70px;
+  font-weight: 300;
+  background-color: #29cc1a;
+}
+.section2 .information .box-2 {
+  position: relative;
+  top: 5in;
+  width: 350px;
+  height: 430px;
+  background-color: #e6b88e;
+  border-radius: 12px;
+}
+.section2 .information .box-2 h1 {
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.section2 .information .box-2 .paragraph-2 {
+  position: relative;
+  left: 3rem;
+  bottom: 2.5in;
+}
+.section2 .information .box-2 .paragraph-2 p {
+  width: 250px;
+  height: 2px;
+  background-color: #eea319;
+}
+.section2 .information .box-2 .button-2 button {
+  position: relative;
+  bottom: 1.5in;
+  left: 5rem;
+  padding: 20px 70px;
+  font-weight: 300;
+  background-color: #f4681d;
+}
+.section2 .information .box-3 {
+  position: relative;
+  top: 5in;
+  width: 350px;
+  height: 430px;
+  background-color: #e59bc9;
+  border-radius: 12px;
+}
+.section2 .information .box-3 h1 {
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.section2 .information .box-3 .paragraph-3 {
+  position: relative;
+  left: 3rem;
+  bottom: 2.5in;
+}
+.section2 .information .box-3 .paragraph-3 p {
+  width: 250px;
+  height: 2px;
+  background-color: #b314c8;
+}
+.section2 .information .box-3 .button-3 button {
+  position: relative;
+  bottom: 1.5in;
+  left: 5rem;
+  padding: 20px 70px;
+  font-weight: 300;
+  background-color: #c720a3;
+}
+.section3 {
+  position: relative;
+  top: 4.3in;
+  width: 100%;
+  height: 100vh;
+}
+.section3 .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section3 .content .personal-info {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.section3 .content .personal-info .details {
+  width: 100%;
+  height: 100%;
+}
+.section3 .content .personal-info .details .essentials {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section3 .content .personal-info .details h1 {
+  position: relative;
+  left: 1in;
+  bottom: 0.5in;
+  font-weight: 300;
+}
+.section3 .content .personal-info .details .name {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section3 .content .personal-info .details .name h4 {
+  width: 150px;
+  height: 5px;
+  background-color: blue;
+}
+.section3 .content .personal-info .details .image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid violet;
+  margin-bottom: 1in;
+}
+.section3 .content .personal-info .details .date {
+  position: relative;
+  top: 1rem;
+}
+.section3 .content .personal-info .details .date h4 {
+  width: 150px;
+  height: 5px;
+  background-color: green;
+}
+.section3 .content .personal-info .details .paragraph {
+  position: relative;
+  left: 0;
+  bottom: 0.8in;
+}
+.section3 .content .personal-info .details .paragraph p {
+  width: 300px;
+  height: 3px;
+  background-color: #808080;
+}
+footer {
+  position: relative;
+  top: 15in;
+  width: 100%;
+  height: 100vh;
+  background-color: #f61c1c;
+}
